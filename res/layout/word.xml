@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:textSize="40sp" >
+
+    <EditText
+        android:id="@+id/idpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Wpass"
+        android:inputType="text" >
+    </EditText>
+
+    <Button
+        android:id="@+id/Bact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Bact"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Tview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/TVinv"
+        android:textSize="30sp" >
+    </TextView>
+
+    <AnalogClock
+        android:id="@+id/Digclock"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/Digclock" />
+
+</LinearLayout>

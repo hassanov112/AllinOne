@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvQuestion"
+        android:textSize="25sp"
+        android:layout_margin="3sp" />
+
+    <RadioGroup
+        android:id="@+id/RGA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="8sp" >
+
+        <RadioButton
+            android:id="@+id/RSnygg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RSnygg"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/RSot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Rsot"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/Rbade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Rbade"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Breturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/Bret"
+        android:padding="8sp" />
+
+    <TextView
+        android:id="@+id/TvTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvGot"
+        android:textSize="25sp"
+        android:padding="8sp" />
+
+</LinearLayout>
